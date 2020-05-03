@@ -1,0 +1,2 @@
+rootProject.name='AplikasiAnakDesa'
+include ':app'
