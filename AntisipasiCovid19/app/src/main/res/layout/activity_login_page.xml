@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:id="@+id/titleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        >
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/antisipasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/antisipasi"
+            android:textSize="35sp"
+            />
+
+        <ImageView
+            android:id="@+id/titlePict"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/title"
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/covid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/covid19"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:background="#00ffffff"
+        android:drawableLeft="@drawable/username"
+        android:ems="8"
+        android:fontFamily="@font/poppins_light"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#00ffffff"
+        android:drawableLeft="@drawable/pass"
+        android:ems="8"
+        android:fontFamily="@font/poppins_light"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="25sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/loginbtn"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#1DE9B6"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLogin"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login"
+                android:textSize="25sp"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
