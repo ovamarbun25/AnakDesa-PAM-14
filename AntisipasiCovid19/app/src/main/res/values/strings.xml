@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">AntisipasiCovid19</string>
-    <string name="login">LOGIN</string>
-    <string name="signup">SIGN UP</string>
-    <string name="antisipasi">Antisipasi</string>
-    <string name="covid19">COVID19</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-</resources>
