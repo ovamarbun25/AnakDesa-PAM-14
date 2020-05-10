@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F1D14"
+    tools:context=".gejala">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GEJALA TERPAPAR \n COVID"
+        android:id="@+id/judul"
+        android:textSize="28sp"
+        android:textColor="#E6DEDD"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="5dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/back"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/logout"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:id="@+id/sesakmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/sesakmenu"/>
+
+
+    <ImageButton
+        android:id="@+id/demammenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sesakmenu"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/demammenu"/>
+
+
+    <ImageButton
+        android:id="@+id/batukmmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/demammenu"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/batukmenu"/>
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="(C) Anak Desa 2020"
+        android:textSize="25sp" />
+
+</RelativeLayout>

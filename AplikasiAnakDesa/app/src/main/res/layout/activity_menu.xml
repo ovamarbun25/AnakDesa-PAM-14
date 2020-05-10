@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F1D14"
+    tools:context=".menu">
+
+    `
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/label"
+        android:layout_margin="10dp"
+        android:textSize="30sp" />
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logout"
+        android:layout_margin="5dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/update"
+        android:layout_below="@id/label"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/update"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/label"
+        android:id="@+id/tips"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/tips"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/lokasi"
+        android:layout_below="@id/update"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/lokasi"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/tips"
+        android:id="@+id/gejala"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/gejala"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/datadiri"
+        android:layout_below="@id/lokasi"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/cekdiri"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/gejala"
+        android:id="@+id/profile"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/profile"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        />
+
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="(C) Anak Desa 2020"
+        android:textSize="25sp" />
+
+</RelativeLayout>

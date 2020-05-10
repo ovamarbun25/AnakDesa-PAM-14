@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F1D14"
+    tools:context=".sesaknafas">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SESAK NAFAS"
+        android:id="@+id/judul"
+        android:textSize="28sp"
+        android:textColor="#E6DEDD"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/back"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/logout"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_below="@id/judul"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:src="@drawable/sesak"
+        android:layout_marginTop="40dp"/>
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableRow
+         android:layout_below="@id/linear1"
+        android:background="#C4C4C4">
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="303dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Sesak nafas atau dyspnea \n adalah kondisi tidak nyaman\n yang menyulitkan Anda\n bernapas lantaran kurangnya\n pasokan udara yang masuk ke paru-paru.\n Pernapasan normal terjadi\n ketika udara masuk ke paru-paru\n dan keluar dari paru-paru." />
+
+    </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Menanggulangi"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

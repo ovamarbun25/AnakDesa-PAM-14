@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F1D14"
+    tools:context=".demam">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEMAM"
+        android:id="@+id/judul"
+        android:textSize="28sp"
+        android:textColor="#E6DEDD"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/back"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/logout"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_below="@id/judul"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:src="@drawable/demam"
+            android:layout_marginTop="40dp"/>
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_below="@id/linear1"
+            android:background="#C4C4C4">
+
+            <TextView
+                android:layout_width="410dp"
+                android:layout_height="303dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:padding="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Demam adalah suatu keadaan saat suhu badan melebihi 37 °C yang disebabkan oleh penyakit atau peradangan. Demam juga merupakan pertanda bahwa sel antibodi manusia (sel darah putih) sedang melawan suatu virus atau bakteri. Anak yang memiliki suhu tinggi karena suhu tinggi berkepanjangan dapat menyebabkan sawan." />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Menanggulangi"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>
