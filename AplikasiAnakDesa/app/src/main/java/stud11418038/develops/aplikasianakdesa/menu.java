@@ -1,8 +1,10 @@
-package stud11418016.develops.antisipasicovid19;
+package stud11418038.develops.aplikasianakdesa;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import stud11418038.develops.aplikasianakdesa.R;
 
 public class menu extends AppCompatActivity {
 
