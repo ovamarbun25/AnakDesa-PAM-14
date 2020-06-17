@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8F1D14"
-    tools:context=".demam">
+    tools:context=".UI.Activities.demam">
 
     <TextView
         android:layout_width="match_parent"

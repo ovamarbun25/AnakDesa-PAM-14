@@ -35,4 +35,22 @@ dependencies {
 
     //AsyncHttpClient
     implementation 'com.loopj.android:android-async-http:1.4.9'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    //LifeCycle
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.1.0'
+
+    //Design
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //Room
+    implementation 'androidx.room:room-runtime:2.2.2'
+    annotationProcessor 'androidx.room:room-compiler:2.2.2'
+    androidTestImplementation 'androidx.room:room-testing:2.2.2'
 }

@@ -1,8 +1,10 @@
-package stud11418038.develops.aplikasianakdesa;
+package stud11418038.develops.aplikasianakdesa.UI.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import stud11418038.develops.aplikasianakdesa.R;
 
 public class EditProfil extends AppCompatActivity {
 

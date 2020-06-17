@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditProfil"></activity>
-        <activity android:name=".Map" />
-        <activity android:name=".Profil" />
-        <activity android:name=".RegisterPage" />
-        <activity android:name=".LoginPage" />
-        <activity android:name=".Splashscreen">
+        <activity android:name=".UI.Activities.EditProfil"></activity>
+        <activity android:name=".UI.Activities.Map" />
+        <activity android:name=".UI.Activities.Profil" />
+        <activity android:name=".UI.Activities.RegisterPage" />
+        <activity android:name=".UI.Activities.LoginPage" />
+        <activity android:name=".UI.Activities.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

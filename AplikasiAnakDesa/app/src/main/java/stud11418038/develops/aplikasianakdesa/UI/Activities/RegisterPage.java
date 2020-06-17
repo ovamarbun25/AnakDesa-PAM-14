@@ -1,4 +1,4 @@
-package stud11418038.develops.aplikasianakdesa;
+package stud11418038.develops.aplikasianakdesa.UI.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,14 +9,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
 
-public class LoginPage extends AppCompatActivity {
+import stud11418038.develops.aplikasianakdesa.R;
+
+public class RegisterPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.activity_register_page);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
     }
+
 
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

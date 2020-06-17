@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8F1D14"
-    tools:context=".gejala">
+    tools:context=".UI.Activities.gejala">
 
     <TextView
         android:layout_width="match_parent"

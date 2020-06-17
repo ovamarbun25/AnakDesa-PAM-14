@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#8F1D14"
-        tools:context=".sesaknafas">
+        tools:context=".UI.Activities.sesaknafas">
 
         <TextView
             android:layout_width="match_parent"

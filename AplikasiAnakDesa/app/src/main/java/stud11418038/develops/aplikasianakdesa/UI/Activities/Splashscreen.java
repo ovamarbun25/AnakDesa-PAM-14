@@ -1,4 +1,4 @@
-package stud11418038.develops.aplikasianakdesa;
+package stud11418038.develops.aplikasianakdesa.UI.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import stud11418038.develops.aplikasianakdesa.R;
 
 public class Splashscreen extends AppCompatActivity implements View.OnClickListener{
 

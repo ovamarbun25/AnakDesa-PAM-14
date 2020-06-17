@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8F1D14"
-    tools:context=".menu">
+    tools:context=".UI.Activities.menu">
 
     `
 
@@ -15,8 +15,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/label"
-        android:layout_margin="10dp"
-        android:textSize="30sp" />
+        android:layout_margin="15dp"
+        android:textSize="23sp" />
 
 
     <ImageButton
