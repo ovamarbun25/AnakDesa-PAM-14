@@ -17,7 +17,7 @@ public interface APICall {
     Call<DefaultResponse> createUser(
             @Field("nama") String nama,
             @Field("umur") String umur,
-            @Field("jeniskelamin") String gender,
+            @Field("jeniskelamin") String jeniskelamin,
             @Field("domisili") String domisili,
             @Field("username") String username,
             @Field("password") String password
@@ -25,7 +25,7 @@ public interface APICall {
     @FormUrlEncoded
     @POST("userlogin")
     Call<LoginResponse> userLogin(
-            @Field("username") String username,
+            @Field("username") String usrnme,
             @Field("password") String password
     );
     @GET("allusers")
@@ -35,9 +35,12 @@ public interface APICall {
     @FormUrlEncoded
     @POST("updateuser/{id}")
     Call<LoginResponse> updateUser(
-            @Field("username") String username,
-            @Path("nama") String nama,
-            @Field("email") String email
+            @Path("id") int id,
+            @Field("nama") String nama,
+            @Field("umur") String umur,
+            @Field("jeniskelamin") String jeniskelamin,
+            @Field("domisili") String domisili,
+            @Field("username") String username
     );
 
     @FormUrlEncoded
@@ -45,9 +48,9 @@ public interface APICall {
     Call<DefaultResponse> updatePassword(
             @Field("currentpassword") String currentpassword,
             @Field("newpassword") String newpassword,
-            @Field("username") String email
+            @Field("username") String username
     );
 
-    @DELETE("deleteuser/{username}")
-    Call<DefaultResponse> deleteUser(@Path("username") String username);
+    @DELETE("deleteuser/{id}")
+    Call<DefaultResponse> deleteUser(@Path("id") int id);
 }
