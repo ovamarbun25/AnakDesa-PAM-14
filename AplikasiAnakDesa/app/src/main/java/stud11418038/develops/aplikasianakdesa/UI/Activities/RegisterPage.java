@@ -95,10 +95,6 @@ public class RegisterPage extends AppCompatActivity implements View.OnClickListe
         }
 
 
-
-
-
-
         Call<DefaultResponse> call = RetrofitClient
                 .getInstance()
                 .getApi()
