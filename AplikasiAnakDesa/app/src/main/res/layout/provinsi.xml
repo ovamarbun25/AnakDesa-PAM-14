@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="16dp"
-    android:background="@color/colorPrimaryDark"
+    android:background="@drawable/shape"
     android:orientation="vertical"
     >
 
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:textColor="#FFFFFF"
-            android:text="Kota"
+            android:text="@string/provinsi"
             android:textStyle="bold"
             android:textSize="21sp" />
     </LinearLayout>
@@ -43,8 +44,8 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:src="@drawable/death" />
             </LinearLayout>
 
@@ -57,8 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-
-                    android:text="Meninggal"
+                    android:text="@string/meninggal"
                     android:textColor="#FFFFFF" />
             </LinearLayout>
 
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="259"
+                    android:text="@string/txtMeninggal"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -92,8 +92,8 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:src="@drawable/positive" />
             </LinearLayout>
 
@@ -106,7 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Positif"
+                    android:text="@string/positif"
                     android:textColor="#FFFFFF" />
             </LinearLayout>
 
@@ -121,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="5"
+                    android:text="@string/txtPositif"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -140,8 +140,8 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:src="@drawable/sembuh" />
             </LinearLayout>
 
@@ -154,7 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Sembuh"
+                    android:text="@string/sembuh"
                     android:textColor="#FFFFFF" />
             </LinearLayout>
 
@@ -169,7 +169,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="6"
+                    android:text="@string/txtSembuh"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
             </LinearLayout>

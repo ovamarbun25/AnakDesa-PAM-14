@@ -15,4 +15,11 @@
     <string name="gejala">Gejala</string>
     <string name="cek_diri">Cek Diri</string>
     <string name="profile">Profile</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="meninggal">Meninggal</string>
+    <string name="positif">Positif</string>
+    <string name="sembuh">Sembuh</string>
+    <string name="txtMeninggal">259</string>
+    <string name="txtPositif">5</string>
+    <string name="txtSembuh">6</string>
 </resources>

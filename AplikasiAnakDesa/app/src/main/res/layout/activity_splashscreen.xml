@@ -8,6 +8,7 @@
     tools:context=".UI.Activities.Splashscreen"
     android:orientation="vertical"
     android:background="@drawable/gradient"
+    android:theme="@style/NoActionBar"
     >
 
     <LinearLayout
