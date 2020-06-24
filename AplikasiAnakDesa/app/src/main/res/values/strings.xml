@@ -5,8 +5,14 @@
     <string name="signup">SIGN UP</string>
     <string name="antisipasi">Antisipasi</string>
     <string name="covid19">COVID19</string>
-    <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="nama">Nama</string>
     <string name="label">Aplikasi Antisipasi Covid 19</string>
+    <string name="username">Username</string>
+    <string name="update_covid">Update Covid</string>
+    <string name="tips_trick"><![CDATA[Tips & Trick]]></string>
+    <string name="lokasi_medis">Lokasi Medis</string>
+    <string name="gejala">Gejala</string>
+    <string name="cek_diri">Cek Diri</string>
+    <string name="profile">Profile</string>
 </resources>

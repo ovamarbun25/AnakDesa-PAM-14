@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.Activities.EditProfil"></activity>
+        <activity android:name=".UI.Activities.Provinsi.Activity_Provinsi"></activity>
+        <activity android:name=".UI.Activities.EditProfil" />
         <activity android:name=".UI.Activities.Map" />
         <activity android:name=".UI.Activities.Profil" />
         <activity android:name=".UI.Activities.RegisterPage" />
