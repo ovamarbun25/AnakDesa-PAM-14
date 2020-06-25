@@ -10,37 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af85356-e3ac-463c-8182-7421537322d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AplikasiAnakDesa.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Global/GlobalActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Global/GlobalAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Global/GlobalViewHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Global/List_Global.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_global.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/global.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/API/APICall.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/API/APICall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/API/RetrofitClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/API/RetrofitClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/EditProfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Profile/EditProfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Login/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Profil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Profile/Profil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Provinsi/Activity_Provinsi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Provinsi/Activity_Provinsi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Register/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Splashscreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/Splashscreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Activities/menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Models/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Models/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Storage/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stud11418038/develops/aplikasianakdesa/UI/Storage/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profil.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profil.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
