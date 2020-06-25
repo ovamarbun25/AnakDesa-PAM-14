@@ -29,9 +29,9 @@ public class Manager {
 
         SharedPreferences sharedPreferences = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("id", user.getNama());
+        editor.putInt("id", user.getId());
         editor.putString("nama", user.getNama());
-        editor.putString("umur", user.getUmur());
+        editor.putInt("umur", user.getUmur());
         editor.putString("jeniskelamin", user.getGender());
         editor.putString("domisili", user.getDomisili());
         editor.putString("username", user.getUsername());
@@ -49,7 +49,7 @@ public class Manager {
         return new User(
                 sharedPreferences.getInt("id", -1),
                 sharedPreferences.getString("nama", null),
-                sharedPreferences.getString("umur", null),
+                sharedPreferences.getInt("umur", 0),
                 sharedPreferences.getString("jeniskelamin", null),
                 sharedPreferences.getString("domisili", null),
                 sharedPreferences.getString("username", null)

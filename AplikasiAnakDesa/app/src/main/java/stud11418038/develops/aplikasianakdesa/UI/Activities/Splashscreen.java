@@ -9,6 +9,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import stud11418038.develops.aplikasianakdesa.R;
+import stud11418038.develops.aplikasianakdesa.UI.Activities.Login.LoginPage;
+import stud11418038.develops.aplikasianakdesa.UI.Activities.Register.RegisterPage;
 
 public class Splashscreen extends AppCompatActivity implements View.OnClickListener{
 

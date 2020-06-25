@@ -7,7 +7,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-    private static final String BASE_URL = "http://192.168.43.62:8080/ProyekPAM/public/";
+    private static final String BASE_URL = "http://192.168.43.62:8080/anticovidpam/public/";
     private static RetrofitClient mInstance;
     private Retrofit retrofit;
 

@@ -8,7 +8,7 @@ public class User {
     @SerializedName("nama")
     private String nama;
     @SerializedName("umur")
-    private String umur;
+    private int umur;
     @SerializedName("jeniskelamin")
     private String gender;
     @SerializedName("domisili")
@@ -16,7 +16,7 @@ public class User {
     @SerializedName("username")
     private String username;
 
-    public User(int id, String nama, String umur, String gender, String domisili, String username) {
+    public User(int id, String nama, int umur, String gender, String domisili, String username) {
         this.id = id;
         this.nama = nama;
         this.umur = umur;
@@ -29,24 +29,48 @@ public class User {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getNama() {
         return nama;
     }
 
-    public String getUmur() {
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public int getUmur() {
         return umur;
+    }
+
+    public void setUmur(int umur) {
+        this.umur = umur;
     }
 
     public String getGender() {
         return gender;
     }
 
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     public String getDomisili() {
         return domisili;
     }
 
+    public void setDomisili(String domisili) {
+        this.domisili = domisili;
+    }
+
     public String getUsername() {
         return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }
 

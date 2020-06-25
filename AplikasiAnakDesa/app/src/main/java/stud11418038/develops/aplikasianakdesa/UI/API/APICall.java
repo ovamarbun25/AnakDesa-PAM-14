@@ -16,7 +16,7 @@ public interface APICall {
     @POST("createuser")
     Call<DefaultResponse> createUser(
             @Field("nama") String nama,
-            @Field("umur") String umur,
+            @Field("umur") int umur,
             @Field("jeniskelamin") String jeniskelamin,
             @Field("domisili") String domisili,
             @Field("username") String username,

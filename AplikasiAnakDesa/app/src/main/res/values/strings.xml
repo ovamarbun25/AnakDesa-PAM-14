@@ -9,7 +9,7 @@
     <string name="nama">Nama</string>
     <string name="label">Aplikasi Antisipasi Covid 19</string>
     <string name="username">Username</string>
-    <string name="update_covid">Update Covid</string>
+    <string name="update_covid">Update Covid Indonesia</string>
     <string name="tips_trick"><![CDATA[Tips & Trick]]></string>
     <string name="lokasi_medis">Lokasi Medis</string>
     <string name="gejala">Gejala</string>
@@ -22,4 +22,5 @@
     <string name="txtMeninggal">259</string>
     <string name="txtPositif">5</string>
     <string name="txtSembuh">6</string>
+    <string name="negara">Negara</string>
 </resources>

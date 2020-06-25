@@ -5,16 +5,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import stud11418038.develops.aplikasianakdesa.R;
 import stud11418038.develops.aplikasianakdesa.UI.Activities.Provinsi.Activity_Provinsi;
+import stud11418038.develops.aplikasianakdesa.UI.Storage.Manager;
 
 public class menu extends AppCompatActivity implements View.OnClickListener{
 
+private TextView textViewUsername;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+        textViewUsername = findViewById(R.id.tvUsername);
 
         findViewById(R.id.updateCovid).setOnClickListener(this);
         findViewById(R.id.tipsTrick).setOnClickListener(this);
@@ -22,6 +27,9 @@ public class menu extends AppCompatActivity implements View.OnClickListener{
         findViewById(R.id.gejala).setOnClickListener(this);
         findViewById(R.id.cekDiri).setOnClickListener(this);
         findViewById(R.id.profile).setOnClickListener(this);
+
+        textViewUsername.setText(Manager.getInstance(getApplicationContext()).getUser().getNama());
+
     }
 
     @Override

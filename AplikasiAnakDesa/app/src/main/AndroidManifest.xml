@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="stud11418038.develops.aplikasianakdesa">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,13 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.Activities.Provinsi.Activity_Provinsi"/>
-        <activity android:name=".UI.Activities.EditProfil" />
+        <activity android:name=".UI.Activities.Global.GlobalActivity"/>
+        <activity android:name=".UI.Activities.Provinsi.Activity_Provinsi" />
+        <activity android:name=".UI.Activities.Profile.EditProfil" />
         <activity android:name=".UI.Activities.Map" />
-        <activity android:name=".UI.Activities.Profil" />
-        <activity android:name=".UI.Activities.RegisterPage" />
-        <activity android:name=".UI.Activities.LoginPage" />
-        <activity android:name=".UI.Activities.menu">
+        <activity android:name=".UI.Activities.Profile.Profil" />
+        <activity android:name=".UI.Activities.Register.RegisterPage" />
+        <activity android:name=".UI.Activities.Login.LoginPage" />
+        <activity android:name=".UI.Activities.menu" />
+        <activity android:name=".UI.Activities.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
