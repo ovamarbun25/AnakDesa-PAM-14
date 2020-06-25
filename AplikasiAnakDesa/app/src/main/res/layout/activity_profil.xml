@@ -7,7 +7,25 @@
     tools:context=".UI.Activities.Profile.Profil">
 
     <LinearLayout
+        android:id="@+id/topToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarProfile"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ActionBar">
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
         android:id="@+id/lr1"
+        android:layout_below="@+id/topToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -73,7 +91,7 @@
         android:gravity="center_horizontal">
 
         <TextView
-            android:id="@+id/tv2"
+            android:id="@+id/tvNama"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Exalanty Hutabarat"
@@ -110,7 +128,7 @@
         android:gravity="center_horizontal">
 
         <TextView
-            android:id="@+id/tv4"
+            android:id="@+id/tvJenisKelamin"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Perempuan"
@@ -147,7 +165,7 @@
         android:gravity="center_horizontal">
 
         <TextView
-            android:id="@+id/tv6"
+            android:id="@+id/tvUmur"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="20 Tahun"
@@ -184,7 +202,7 @@
         android:gravity="center_horizontal">
 
         <TextView
-            android:id="@+id/tv8"
+            android:id="@+id/tvDomisili"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Balige"

@@ -8,6 +8,15 @@
     android:orientation="vertical"
     tools:context=".UI.Activities.Provinsi.Activity_Provinsi">
 
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarGlobal"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ActionBar">
+    </androidx.appcompat.widget.Toolbar>
+
     <LinearLayout
         android:id="@+id/topbarProvinsi"
         android:layout_width="match_parent"

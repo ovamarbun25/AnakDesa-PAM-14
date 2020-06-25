@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UI.Activities.CekDiri"/>
         <activity android:name=".UI.Activities.Global.GlobalActivity"/>
         <activity android:name=".UI.Activities.Provinsi.Activity_Provinsi" />
         <activity android:name=".UI.Activities.Profile.EditProfil" />

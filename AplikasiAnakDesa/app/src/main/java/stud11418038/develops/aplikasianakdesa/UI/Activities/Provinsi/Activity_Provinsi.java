@@ -2,6 +2,7 @@ package stud11418038.develops.aplikasianakdesa.UI.Activities.Provinsi;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,6 +10,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -23,6 +25,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import stud11418038.develops.aplikasianakdesa.R;
+import stud11418038.develops.aplikasianakdesa.UI.Activities.menu;
 
 public class Activity_Provinsi extends AppCompatActivity {
 
@@ -35,9 +38,11 @@ public class Activity_Provinsi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__provinsi);
-
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);;
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Aplikasi Antisipasi Covid 19");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         recyclerView = findViewById(R.id.rvProvinsi);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -45,6 +50,14 @@ public class Activity_Provinsi extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         list_provinsis = new ArrayList<>();
         getData();
+
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), menu.class));
+            }
+        });
     }
 
     private void getData() {
@@ -88,14 +101,5 @@ public class Activity_Provinsi extends AppCompatActivity {
         requestQueue.add(jsonArrayRequest);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
 
-        if (id == R.id.home){
-            this.finish();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

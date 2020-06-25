@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AplikasiAnakDesa</string>
+    <string name="app_name">Aplikasi Antisipasi Covid 19</string>
     <string name="login">LOGIN</string>
     <string name="reg">REGISTER</string>
     <string name="signup">SIGN UP</string>
@@ -9,7 +9,8 @@
     <string name="nama">Nama</string>
     <string name="label">Aplikasi Antisipasi Covid 19</string>
     <string name="username">Username</string>
-    <string name="update_covid">Update Covid Indonesia</string>
+    <string name="update_covid">Update Covid di Indonesia</string>
+    <string name="update_covid_global">Update Covid di Seluruh Dunia</string>
     <string name="tips_trick"><![CDATA[Tips & Trick]]></string>
     <string name="lokasi_medis">Lokasi Medis</string>
     <string name="gejala">Gejala</string>

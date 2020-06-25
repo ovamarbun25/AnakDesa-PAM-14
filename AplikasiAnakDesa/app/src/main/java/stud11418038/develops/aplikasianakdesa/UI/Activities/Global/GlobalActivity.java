@@ -1,11 +1,15 @@
 package stud11418038.develops.aplikasianakdesa.UI.Activities.Global;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -21,12 +25,11 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 import stud11418038.develops.aplikasianakdesa.R;
-import stud11418038.develops.aplikasianakdesa.UI.Activities.Provinsi.Activity_Provinsi;
-import stud11418038.develops.aplikasianakdesa.UI.Activities.Provinsi.List_Provinsi;
-import stud11418038.develops.aplikasianakdesa.UI.Activities.Provinsi.ProvinsiAdapter;
+import stud11418038.develops.aplikasianakdesa.UI.Activities.menu;
 
 public class GlobalActivity extends AppCompatActivity {
 
+    private static final String white = "#FFFFFFFF";
     String url = "https://api.kawalcorona.com/";
     RecyclerView recyclerView;
     GlobalAdapter globalAdapter;
@@ -35,6 +38,18 @@ public class GlobalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_global);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarGlobal);;
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Aplikasi Antisipasi Covid 19");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), menu.class));
+            }
+        });
 
         recyclerView = findViewById(R.id.rvGlobal);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -42,6 +57,8 @@ public class GlobalActivity extends AppCompatActivity {
         recyclerView.setAdapter(globalAdapter);
         list_globals = new ArrayList<>();
         getData();
+
+
     }
 
     private void getData() {
@@ -54,6 +71,7 @@ public class GlobalActivity extends AppCompatActivity {
             @Override
             public void onResponse(JSONArray response) {
                 try {
+                    Log.e("Tag","Exception :" +response.toString());
                     for (int i=0;i<response.length();i++) {
                         JSONObject jsonObject = response.getJSONObject(i);
                         JSONObject attr = jsonObject.getJSONObject("attributes");

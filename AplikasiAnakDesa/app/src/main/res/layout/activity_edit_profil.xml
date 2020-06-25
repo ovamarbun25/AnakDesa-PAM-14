@@ -73,7 +73,7 @@
         android:gravity="center_horizontal">
 
         <EditText
-            android:id="@+id/et1"
+            android:id="@+id/etNama"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="120dp"
@@ -108,7 +108,7 @@
         android:gravity="center_horizontal">
 
         <EditText
-            android:id="@+id/et2"
+            android:id="@+id/etJenisKelamin"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="120dp"
@@ -143,7 +143,7 @@
         android:gravity="center_horizontal">
 
         <EditText
-            android:id="@+id/et3"
+            android:id="@+id/etUmur"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="120dp"
@@ -178,7 +178,7 @@
         android:gravity="center_horizontal">
 
         <EditText
-            android:id="@+id/et4"
+            android:id="@+id/etDomisili"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="120dp"
@@ -197,9 +197,19 @@
         android:paddingBottom="10dp">
 
         <Button
+            android:id="@+id/btnBatal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/batal"
+            android:text="Batal"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/btnSimpan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_pressed"
+            android:layout_marginLeft="10dp"
             android:text="@string/simpanedit"
             android:textColor="#000000"
             android:textSize="14sp"/>
