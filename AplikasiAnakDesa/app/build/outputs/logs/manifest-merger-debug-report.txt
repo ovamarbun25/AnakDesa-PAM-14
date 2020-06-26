@@ -1,0 +1,506 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\66c3c143df41559870c6c5df9f5722e5\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\e3fedb2fab530015c2380853395a6907\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\daf757c3a61c37dad8d95e883863882e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2f6d062737d002d31121577f968aed5b\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\efc29efe4003fd39c2fafd9c8bd39c6f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3e03b31ecef4baef650d0a89a94ddc61\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2d5e94057ad2edc86b3330b532cb82e0\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c8483bad64a9fc0a657a7d54385598ac\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c79ec5f53ab43b8b2dd60d22d8c1d677\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7caaee0a003d04772d235cd348463ef9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dacb5181e9b0cb67fe81f0161dc84204\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\52dba4953c5495e4683850f394631edb\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3b759f7c4ea41f3c2f67cad746496320\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\962321e39967f168d8bf89c2c4c57bbe\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\377b04b0edc2fa4bc8518fa406707e4e\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7e8fa781c0554f8d8a4fcc6e6b53eacb\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\6e13062bb01e6f998700f6c5cf7fee7b\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ec3a3f67c00d664f618179f8434e80e8\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4797e0017f9b62635a2175d62cad14a2\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3a08280d146103e802f4745f9d7fab6b\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\149b767d379a84b60da4ece91b7dc5e0\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ca0bdab4dc9226b6505ee04b36971e55\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ae90bc051bf6534e23a1a99a314ec21b\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\0a308f80422619735be184a8570baadf\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\a96c12f4a705dfb1d6ffe5dc2c3427b8\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\46b8b1de54f8540d9a7b6db0800b672e\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\8ff14abd8618b23e2e99bb10c5f4a96a\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2bfa80652c91ae3eb618a6295f621404\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4c9a6caea7ef165dacb3e399040d8e07\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\674ae8024cae016be107d0f276f2961f\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\9a2f1b2a2f57fc79cc61a2f4276b1035\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4b2a575084bc1d1bad45fa6e0349de68\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7772d465bde887c667de815a61220c24\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\70a37f0b9c36881594c433d90e39b45d\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7d8fa05d635f795d0ddd40f10ec0c96b\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc74074bcd2377b4e236a6e4713c11cb\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\db7d2aa2591ed8dbf537a096bef6d9f0\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:2:1-77:12
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:2:1-20:12
+MERGED from [com.huawei.hms:maps-base:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\006b53b1db0c13fb8110d6e3a276967f\jetified-maps-base-4.0.1.302\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:2:1-20:12
+MERGED from [com.huawei.hmf:tasks:1.3.3.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\9196f0a21c059ce074790f47c188cca9\jetified-tasks-1.3.3.300\AndroidManifest.xml:2:1-10:12
+MERGED from [com.huawei.hms:network-grs:4.0.0.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\240237b9b472153ec3c9259bb36e5f1c\jetified-network-grs-4.0.0.302\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-common:4.0.0.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\19903c3c48608d11bdef6a57c8e1e867\jetified-network-common-4.0.0.302\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:5:5-81
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:12:5-81
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:14:5-79
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:11:5-35:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\66c3c143df41559870c6c5df9f5722e5\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\66c3c143df41559870c6c5df9f5722e5\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\daf757c3a61c37dad8d95e883863882e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\daf757c3a61c37dad8d95e883863882e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2f6d062737d002d31121577f968aed5b\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2f6d062737d002d31121577f968aed5b\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3e03b31ecef4baef650d0a89a94ddc61\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3e03b31ecef4baef650d0a89a94ddc61\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c79ec5f53ab43b8b2dd60d22d8c1d677\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c79ec5f53ab43b8b2dd60d22d8c1d677\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:11:5-24:19
+MERGED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:11:5-24:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\52dba4953c5495e4683850f394631edb\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\52dba4953c5495e4683850f394631edb\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3b759f7c4ea41f3c2f67cad746496320\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3b759f7c4ea41f3c2f67cad746496320\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ae90bc051bf6534e23a1a99a314ec21b\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ae90bc051bf6534e23a1a99a314ec21b\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc74074bcd2377b4e236a6e4713c11cb\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc74074bcd2377b4e236a6e4713c11cb\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:20:5-75:19
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:20:5-75:19
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:11:5-18:19
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:11:5-18:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:9:5-18:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:9:5-18:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ae90bc051bf6534e23a1a99a314ec21b\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:17:9-40
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Gejala.MainGejala
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:18:9-78
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:18:19-66
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.TipsTrik.MainTips
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:19:9-69
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:19:19-66
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.CekDiri
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:20:9-59
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:20:19-56
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Global.GlobalActivity
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:21:9-73
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:21:19-70
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Provinsi.Activity_Provinsi
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:22:9-78
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:22:19-75
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Profile.EditProfil
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:23:19-67
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Profile.Profil
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:24:9-66
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:24:19-63
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Register.RegisterPage
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:25:9-73
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:25:19-70
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Login.LoginPage
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:26:9-67
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:26:19-64
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.menu
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:27:9-56
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:27:19-53
+activity#stud11418038.develops.aplikasianakdesa.UI.Activities.Splashscreen
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:28:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\66c3c143df41559870c6c5df9f5722e5\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\66c3c143df41559870c6c5df9f5722e5\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\e3fedb2fab530015c2380853395a6907\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\e3fedb2fab530015c2380853395a6907\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\daf757c3a61c37dad8d95e883863882e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\daf757c3a61c37dad8d95e883863882e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2f6d062737d002d31121577f968aed5b\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2f6d062737d002d31121577f968aed5b\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\efc29efe4003fd39c2fafd9c8bd39c6f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\efc29efe4003fd39c2fafd9c8bd39c6f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3e03b31ecef4baef650d0a89a94ddc61\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3e03b31ecef4baef650d0a89a94ddc61\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2d5e94057ad2edc86b3330b532cb82e0\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2d5e94057ad2edc86b3330b532cb82e0\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c8483bad64a9fc0a657a7d54385598ac\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c8483bad64a9fc0a657a7d54385598ac\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c79ec5f53ab43b8b2dd60d22d8c1d677\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c79ec5f53ab43b8b2dd60d22d8c1d677\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7caaee0a003d04772d235cd348463ef9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7caaee0a003d04772d235cd348463ef9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dacb5181e9b0cb67fe81f0161dc84204\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dacb5181e9b0cb67fe81f0161dc84204\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\52dba4953c5495e4683850f394631edb\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\52dba4953c5495e4683850f394631edb\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3b759f7c4ea41f3c2f67cad746496320\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3b759f7c4ea41f3c2f67cad746496320\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\962321e39967f168d8bf89c2c4c57bbe\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\962321e39967f168d8bf89c2c4c57bbe\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\377b04b0edc2fa4bc8518fa406707e4e\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\377b04b0edc2fa4bc8518fa406707e4e\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7e8fa781c0554f8d8a4fcc6e6b53eacb\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7e8fa781c0554f8d8a4fcc6e6b53eacb\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\6e13062bb01e6f998700f6c5cf7fee7b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\6e13062bb01e6f998700f6c5cf7fee7b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ec3a3f67c00d664f618179f8434e80e8\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ec3a3f67c00d664f618179f8434e80e8\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4797e0017f9b62635a2175d62cad14a2\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4797e0017f9b62635a2175d62cad14a2\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3a08280d146103e802f4745f9d7fab6b\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\3a08280d146103e802f4745f9d7fab6b\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\149b767d379a84b60da4ece91b7dc5e0\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\149b767d379a84b60da4ece91b7dc5e0\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ca0bdab4dc9226b6505ee04b36971e55\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ca0bdab4dc9226b6505ee04b36971e55\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ae90bc051bf6534e23a1a99a314ec21b\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\ae90bc051bf6534e23a1a99a314ec21b\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\0a308f80422619735be184a8570baadf\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\0a308f80422619735be184a8570baadf\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\a96c12f4a705dfb1d6ffe5dc2c3427b8\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\a96c12f4a705dfb1d6ffe5dc2c3427b8\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\46b8b1de54f8540d9a7b6db0800b672e\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\46b8b1de54f8540d9a7b6db0800b672e\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\8ff14abd8618b23e2e99bb10c5f4a96a\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\8ff14abd8618b23e2e99bb10c5f4a96a\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2bfa80652c91ae3eb618a6295f621404\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\2bfa80652c91ae3eb618a6295f621404\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4c9a6caea7ef165dacb3e399040d8e07\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4c9a6caea7ef165dacb3e399040d8e07\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\674ae8024cae016be107d0f276f2961f\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\674ae8024cae016be107d0f276f2961f\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\9a2f1b2a2f57fc79cc61a2f4276b1035\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\9a2f1b2a2f57fc79cc61a2f4276b1035\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4b2a575084bc1d1bad45fa6e0349de68\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\4b2a575084bc1d1bad45fa6e0349de68\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7772d465bde887c667de815a61220c24\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7772d465bde887c667de815a61220c24\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\70a37f0b9c36881594c433d90e39b45d\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\70a37f0b9c36881594c433d90e39b45d\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7d8fa05d635f795d0ddd40f10ec0c96b\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\7d8fa05d635f795d0ddd40f10ec0c96b\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc74074bcd2377b4e236a6e4713c11cb\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc74074bcd2377b4e236a6e4713c11cb\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\db7d2aa2591ed8dbf537a096bef6d9f0\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\db7d2aa2591ed8dbf537a096bef6d9f0\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:maps-base:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\006b53b1db0c13fb8110d6e3a276967f\jetified-maps-base-4.0.1.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:maps-base:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\006b53b1db0c13fb8110d6e3a276967f\jetified-maps-base-4.0.1.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hmf:tasks:1.3.3.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\9196f0a21c059ce074790f47c188cca9\jetified-tasks-1.3.3.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hmf:tasks:1.3.3.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\9196f0a21c059ce074790f47c188cca9\jetified-tasks-1.3.3.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:network-grs:4.0.0.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\240237b9b472153ec3c9259bb36e5f1c\jetified-network-grs-4.0.0.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:4.0.0.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\240237b9b472153ec3c9259bb36e5f1c\jetified-network-grs-4.0.0.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:4.0.0.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\19903c3c48608d11bdef6a57c8e1e867\jetified-network-common-4.0.0.302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:4.0.0.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\19903c3c48608d11bdef6a57c8e1e867\jetified-network-common-4.0.0.302\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ova Marbun\Documents\GitHub\AnakDesa-PAM-14\AplikasiAnakDesa\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c78b7727be2907f7cae7c610a1cf8bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\84dad72193383c59473dd1ee31834dab\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\51fb619f5cd7b7712686ea014f7fcb31\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+meta-data#com.huawei.hms.map.version
+ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:12:9-14:41
+	android:value
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:14:13-38
+	android:name
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:13:13-54
+meta-data#com.huawei.hms.client.service.name:maps
+ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:15:9-17:46
+	android:value
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:16:13-67
+meta-data#com.huawei.hms.min_api_level:maps:huawei_module_maps
+ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:18:9-20:33
+	android:value
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:20:13-30
+	android:name
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:19:13-80
+meta-data#com.huawei.hms.min_api_level:maps:huawei_module_huaweimaps
+ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:21:9-23:33
+	android:value
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:23:13-30
+	android:name
+		ADDED from [com.huawei.hms:maps:4.0.1.302] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f6cf93a7418a9a419ce341f75adaf5f7\jetified-maps-4.0.1.302\AndroidManifest.xml:22:13-86
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\dc4470c9fe3cca5980b7dfa9826808d0\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\1230ddfebc58bff040ee1e0b97b63f6f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\393cf6354562aa13caabb3df58ed3a09\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:16:5-83
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:16:22-80
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:18:5-106
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:18:22-103
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:26:9-28:46
+	android:value
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:28:13-43
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:27:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:31:9-33:33
+	android:value
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:33:13-30
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:32:13-69
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:35:9-45:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:38:13-46
+	android:hardwareAccelerated
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:40:13-47
+	android:exported
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:39:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:37:13-124
+	android:theme
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:36:13-66
+meta-data#hwc-theme
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:42:13-44:77
+	android:value
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:44:17-74
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:43:17-41
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:46:9-49:20
+	android:configChanges
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:48:13-106
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:47:13-73
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:50:9-58:20
+	android:exported
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:53:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:52:13-91
+	android:theme
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:51:13-84
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:59:9-67:20
+	android:exported
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:62:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:61:13-106
+	android:theme
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:60:13-84
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:69:9-74:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:73:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:71:13-71
+	android:exported
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\d0420cb0e8de6e73ae87bbeaf9b01800\jetified-base-4.0.0.300\AndroidManifest.xml:70:13-73
+meta-data#com.huawei.hms.client.service.name:dynamic-api
+ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:12:9-14:54
+	android:value
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:14:13-51
+	android:name
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:13:13-74
+meta-data#com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader
+ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:15:9-17:33
+	android:value
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:17:13-30
+	android:name
+		ADDED from [com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\f433bff2d802ce57dc210e1c0383315e\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:16:13-96
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:10:9-13:40
+	android:authorities
+		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:12:13-73
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:11:13-90
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] C:\Users\Ova Marbun\.gradle\caches\transforms-2\files-2.1\c93531f6a0e65c03c14ad0ad77298fd6\jetified-agconnect-core-1.0.0.300\AndroidManifest.xml:16:13-70
